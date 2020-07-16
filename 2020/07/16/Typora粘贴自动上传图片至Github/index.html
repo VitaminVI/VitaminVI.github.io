@@ -6,14 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Tag: 从0到1 | 书非借不能读也</title>
+  <title>Typora粘贴自动上传图片 | 书非借不能读也</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="书非借不能读也">
-<meta property="og:url" content="http://yoursite.com/tags/%E4%BB%8E0%E5%88%B01/index.html">
+  <meta name="description" content="解决Windows下，typora不支持粘贴自动上传图片到服务的问题。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Typora粘贴自动上传图片">
+<meta property="og:url" content="http://yoursite.com/2020/07/16/Typora%E7%B2%98%E8%B4%B4%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3Github/index.html">
 <meta property="og:site_name" content="书非借不能读也">
+<meta property="og:description" content="解决Windows下，typora不支持粘贴自动上传图片到服务的问题。">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-07-16T07:42:56.000Z">
+<meta property="article:modified_time" content="2020-07-16T07:55:54.978Z">
 <meta property="article:author" content="小蜗牛">
+<meta property="article:tag" content="Typora">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="书非借不能读也" type="application/atom+xml">
@@ -54,8 +59,6 @@
 			<ul>
 			
 				<li><a href="/">主页</a></li>
-	        
-				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 	        
 			</ul>
 		</nav>
@@ -103,8 +106,6 @@
 			
 				
 			
-				
-			
 			
 			
 			<nav class="header-nav">
@@ -117,9 +118,7 @@
 				<ul style="width: 50%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
-		        
-					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 100%"><a href="/">主页</a></li>
 		        
 				</ul>
 			</nav>
@@ -134,106 +133,109 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-Typora粘贴自动上传图片至Github" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/07/16/%E4%BB%8E0%E5%88%B01%E5%AE%89%E8%A3%85Hexo/" class="archive-article-date">
-  	<time datetime="2020-07-16T03:21:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-16</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/07/16/%E4%BB%8E0%E5%88%B01%E5%AE%89%E8%A3%85Hexo/">从0到1安装Hexo</a>
+    <h1 class="article-title" itemprop="name">
+      Typora粘贴自动上传图片
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2020/07/16/Typora%E7%B2%98%E8%B4%B4%E8%87%AA%E5%8A%A8%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3Github/" class="archive-article-date">
+  	<time datetime="2020-07-16T07:42:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-16</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>解决Windows下，typora不支持粘贴自动上传图片到服务的问题。</p>
+<a id="more"></a>
+
+<h2 id="1-GitHub建立仓库"><a href="#1-GitHub建立仓库" class="headerlink" title="1.GitHub建立仓库"></a>1.GitHub建立仓库</h2><p>新建仓库,名称随意,项目属性设置为<code>public</code></p>
+<h2 id="2-下载插件并解压"><a href="#2-下载插件并解压" class="headerlink" title="2.下载插件并解压"></a>2.下载插件并解压</h2><p><a href="https://github.com/VitaminVI/typora-plugins-win-img" target="_blank" rel="noopener">插件下载地址</a></p>
+<h2 id="3-安装插件"><a href="#3-安装插件" class="headerlink" title="3.安装插件"></a>3.安装插件</h2><ul>
+<li><p>进入Typora安装目录<code>Typora/resources/app</code>,修改<code>window.html</code></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--在文件末尾找到这句话--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"./app/window/frame.js"</span> <span class="attr">defer</span>=<span class="string">"defer"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--增加下面这行--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"./plugins/image/upload.js"</span> <span class="attr">defer</span>=<span class="string">"defer"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>将解压后的插件目录中的<code>plugins</code>文件夹粘贴至<code>Typora/resources/app</code></p>
+</li>
+</ul>
+<h2 id="4-修改上传配置"><a href="#4-修改上传配置" class="headerlink" title="4. 修改上传配置"></a>4. 修改上传配置</h2><p>打开 <code>plugins/image/upload.js</code> 文件，将最后一行的 <code>$.image.init();</code> 按照下面的说明进行配置：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//注册token的尽量不要跟其他应用共用，同时授予最小权限</span></span><br><span class="line"><span class="comment">//免费+无需自己搭建服务器，是一种不错的方式</span></span><br><span class="line">$.image.init(&#123;</span><br><span class="line">    target:<span class="string">'github'</span>,</span><br><span class="line">    quality:<span class="number">1</span>, <span class="comment">//图片压缩开关，1表示原图上传 取值为：0&lt;quality&lt;=1，如果要压缩推荐 0.7</span></span><br><span class="line">    github:&#123;</span><br><span class="line">        Token : <span class="string">'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'</span>, <span class="comment">// 添加一个仅给typora使用的token 授予最小的权限（repo.public_repo） ，添加token：https://github.com/settings/tokens</span></span><br><span class="line">        CommitterName : <span class="string">'nickname'</span>,                         <span class="comment">// 提交人昵称，写你github的昵称</span></span><br><span class="line">        CommitterEmail : <span class="string">'email@mail.com'</span>,                  <span class="comment">// 提交人邮箱，写你github的邮箱</span></span><br><span class="line">        Repository : <span class="string">'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'</span>,      <span class="comment">// github项目名，比如你的项目地址是：https://github.com/Thobian/typora-plugins-win-img  那就是后面的“Thobian/typora-plugins-win-img”</span></span><br><span class="line">        Filepath : <span class="string">'typora'</span>,                                <span class="comment">// 图片在项目中的保存目录，可以不用提前创建目录，github提交时发现没有会自动创建</span></span><br><span class="line">        <span class="comment">// 【注意：开启CDN后会将原github的文件地址换成 jsDelivr 的地址，如出现镜像出现国内无法访问，或者不再继续运营你的图片也将不能访问到，请谨慎开启该功能】</span></span><br><span class="line">        jsDelivrCND : <span class="literal">false</span>,                                <span class="comment">// 是否开启GitHub图片走镜像，国内有时候访问不太方便,如要打开设置为：true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Hexo</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">从0到1</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Typora</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
+      
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/07/16/%E4%BB%8E0%E5%88%B01%E5%AE%89%E8%A3%85ElasticSearch/" class="archive-article-date">
-  	<time datetime="2020-07-16T01:32:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-16</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2020/07/16/Hexo%E5%AE%89%E8%A3%85yilia%E4%B8%BB%E9%A2%98/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hexo安装yilia主题</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/07/16/%E4%BB%8E0%E5%88%B01%E5%AE%89%E8%A3%85ElasticSearch/">从0到1安装ElasticSearch</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">从0到1</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">ElasticSearch</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -256,9 +258,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
@@ -326,19 +328,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Typora</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Hexo</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">yilia</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">从0到1</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -394,27 +392,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
         <ul class="search-ul">
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
+              <a href="https://luckilyh.com/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>HaoGege</a>
             </li>
           
         </ul>
@@ -425,7 +403,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">该不该搁下重重的壳&lt;br&gt;&lt;br&gt;寻找到底哪里有蓝天&lt;br&gt;&lt;br&gt;随着轻轻的风轻轻的飘&lt;br&gt;&lt;br&gt;历经的伤都不感觉疼&lt;br&gt;&lt;br&gt;我要一步一步往上爬&lt;br&gt;&lt;br&gt;等待阳光静静看着它的脸&lt;br&gt;&lt;br&gt;小小的天 有大大的梦想&lt;br&gt;&lt;br&gt;重重的壳裹着轻轻的仰望&lt;br&gt;&lt;br&gt;我要一步一步往上爬&lt;br&gt;&lt;br&gt;在最高点乘着叶片往前飞&lt;br&gt;&lt;br&gt;任风吹干 流过的泪和汗&lt;br&gt;&lt;br&gt;总有一天我有属于我的天</div>
   	  	
     	</section>
     
