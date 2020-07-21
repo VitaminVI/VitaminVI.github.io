@@ -16,7 +16,7 @@
 <meta property="og:description" content="Elasticsearch 是一个分布式的 RESTful 风格的搜索和数据分析引擎，能够解决越来越多的用例。">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-07-16T01:32:37.000Z">
-<meta property="article:modified_time" content="2020-07-16T07:57:04.228Z">
+<meta property="article:modified_time" content="2020-07-21T12:10:41.342Z">
 <meta property="article:author" content="小蜗牛">
 <meta property="article:tag" content="ElasticSearch">
 <meta name="twitter:card" content="summary">
@@ -210,7 +210,7 @@
 </ul>
 <h2 id="5-暴露节点"><a href="#5-暴露节点" class="headerlink" title="5.暴露节点"></a>5.暴露节点</h2><p>取消注释并保留一个节点</p>
 <p><code>vim es/config/elasticsearch.yml</code></p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cluster.initial_master_nodes: ["node-1"]</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Use a descriptive name <span class="keyword">for</span> the node:</span></span><br><span class="line"><span class="meta">#</span></span><br><span class="line">node.name: node-1</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash"> Bootstrap the cluster using an initial <span class="built_in">set</span> of master-eligible nodes:</span></span><br><span class="line"><span class="meta">#</span></span><br><span class="line">cluster.initial_master_nodes: ["node-1"]</span><br></pre></td></tr></table></figure>
 
 <h2 id="6-开放远程访问"><a href="#6-开放远程访问" class="headerlink" title="6.开放远程访问"></a>6.开放远程访问</h2><ul>
 <li><p>修改配置文件</p>
@@ -402,19 +402,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">ElasticSearch</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">head</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Hexo</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">yilia</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">ElasticSearch</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">head</a>
               </li>
              
               <li class="article-tag-list-item">
