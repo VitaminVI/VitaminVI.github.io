@@ -6,20 +6,14 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>FastAdmin后台表格自定义搜索项 | 书非借不能读也</title>
+  <title>Archives: 2022 | 书非借不能读也</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="FastAdmin后台数据表格自定义搜索项">
-<meta property="og:type" content="article">
-<meta property="og:title" content="FastAdmin后台表格自定义搜索项">
-<meta property="og:url" content="http://yoursite.com/2021/09/30/FastAdmin%E5%90%8E%E5%8F%B0%E8%A1%A8%E6%A0%BC%E8%87%AA%E5%AE%9A%E4%B9%89%E6%90%9C%E7%B4%A2%E9%A1%B9/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="书非借不能读也">
+<meta property="og:url" content="http://yoursite.com/archives/2022/index.html">
 <meta property="og:site_name" content="书非借不能读也">
-<meta property="og:description" content="FastAdmin后台数据表格自定义搜索项">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-09-30T10:17:15.000Z">
-<meta property="article:modified_time" content="2022-03-09T12:27:10.132Z">
 <meta property="article:author" content="小蜗牛">
-<meta property="article:tag" content="FastAdmin">
-<meta property="article:tag" content="后台">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="书非借不能读也" type="application/atom+xml">
@@ -140,119 +134,60 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-FastAdmin后台表格自定义搜索项" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
+            
   
-    <h1 class="article-title" itemprop="name">
-      FastAdmin后台表格自定义搜索项
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2022" class="archive-year">2022</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2022/03/10/%E5%8F%B3%E9%94%AE%E4%BD%BF%E7%94%A8Sublime-Text%E6%89%93%E5%BC%80%E6%96%87%E4%BB%B6%E5%A4%B9/" class="archive-article-date">
+  	<time datetime="2022-03-10T02:19:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-03-10</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2022/03/10/%E5%8F%B3%E9%94%AE%E4%BD%BF%E7%94%A8Sublime-Text%E6%89%93%E5%BC%80%E6%96%87%E4%BB%B6%E5%A4%B9/">右键使用Sublime Text打开文件夹</a>
     </h1>
   
 
-        
-        <a href="/2021/09/30/FastAdmin%E5%90%8E%E5%8F%B0%E8%A1%A8%E6%A0%BC%E8%87%AA%E5%AE%9A%E4%B9%89%E6%90%9C%E7%B4%A2%E9%A1%B9/" class="archive-article-date">
-  	<time datetime="2021-09-30T10:17:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-30</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>FastAdmin后台数据表格自定义搜索项</p>
-<a id="more"></a>
-
-<blockquote>
-<p>后台数据表格自定义搜索项</p>
-</blockquote>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h3 id="Js"><a href="#Js" class="headerlink" title="Js"></a>Js</h3><p>正常添加搜索项,<code>field</code>可为虚拟字段</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;<span class="attr">field</span>: <span class="string">'print_time'</span>, <span class="attr">title</span>: __(<span class="string">'Print_time'</span>)&#125;,</span><br></pre></td></tr></table></figure>
-
-<h3 id="Controller"><a href="#Controller" class="headerlink" title="Controller"></a>Controller</h3><p>在组装搜索条件<code>$this-&gt;buildparams()</code>前检测请求参数并添加自定义<code>where</code></p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">index</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//当前是否为关联查询</span></span><br><span class="line">    <span class="keyword">$this</span>-&gt;relationSearch = <span class="keyword">true</span>;</span><br><span class="line">    <span class="comment">//设置过滤方法</span></span><br><span class="line">    <span class="keyword">$this</span>-&gt;request-&gt;filter([<span class="string">'strip_tags'</span>, <span class="string">'trim'</span>]);</span><br><span class="line">    <span class="keyword">if</span> (<span class="keyword">$this</span>-&gt;request-&gt;isAjax()) &#123;</span><br><span class="line">        <span class="comment">//如果发送的来源是Selectpage，则转发到Selectpage</span></span><br><span class="line">        <span class="keyword">if</span> (<span class="keyword">$this</span>-&gt;request-&gt;request(<span class="string">'keyField'</span>)) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">$this</span>-&gt;selectpage();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">/*---------------------组装自定义搜索 Start----------------------------------*/</span></span><br><span class="line">        $filter = <span class="keyword">$this</span>-&gt;request-&gt;get(<span class="string">"filter"</span>, <span class="string">''</span>);</span><br><span class="line">        $op = <span class="keyword">$this</span>-&gt;request-&gt;get(<span class="string">"op"</span>, <span class="string">''</span>, <span class="string">'trim'</span>);</span><br><span class="line">        $filter = (<span class="keyword">array</span>)json_decode($filter, <span class="keyword">true</span>);</span><br><span class="line">        $op = (<span class="keyword">array</span>)json_decode($op, <span class="keyword">true</span>);</span><br><span class="line">        <span class="comment">//参数是否有改变 开团时间搜索条件</span></span><br><span class="line">        $is_param_change = $where_print_time = <span class="string">''</span>;</span><br><span class="line">        <span class="comment">//组装开团时间搜索</span></span><br><span class="line">        <span class="keyword">if</span> (<span class="keyword">isset</span>($filter[<span class="string">'print_time'</span>])) &#123;</span><br><span class="line">            $is_param_change = <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">list</span>($print_time_start, $print_time_end) = explode(<span class="string">' - '</span>, $filter[<span class="string">'print_time'</span>]);</span><br><span class="line">            $where_print_time = <span class="string">"print_time BETWEEN "</span> . date(<span class="string">'Ymd'</span>, strtotime($print_time_start)) . <span class="string">" AND "</span> . date(<span class="string">'Ymd'</span>, strtotime($print_time_end));</span><br><span class="line">            <span class="keyword">unset</span>($filter[<span class="string">'print_time'</span>]);</span><br><span class="line">            <span class="keyword">unset</span>($op[<span class="string">'print_time'</span>]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//参数有改变时修改请求参数</span></span><br><span class="line">        $is_param_change &amp;&amp; \think\Request::instance()-&gt;get([<span class="string">'filter'</span> =&gt; json_encode($filter)]) &amp;&amp; \think\Request::instance()-&gt;get([<span class="string">'op'</span> =&gt; json_encode($op)]);</span><br><span class="line">        <span class="comment">/*---------------------组装自定义搜索 End----------------------------------*/</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">list</span>($where, $sort, $order, $offset, $limit) = <span class="keyword">$this</span>-&gt;buildparams();</span><br><span class="line"></span><br><span class="line">        <span class="comment">//组装自定义搜索</span></span><br><span class="line">        <span class="keyword">$this</span>-&gt;model = <span class="keyword">$this</span>-&gt;model-&gt;with([<span class="string">'goodsextend'</span>]);</span><br><span class="line">        $where_print_time &amp;&amp; $list = <span class="keyword">$this</span>-&gt;model-&gt;whereRaw($where_print_time);</span><br><span class="line"></span><br><span class="line">        $list = <span class="keyword">$this</span>-&gt;model-&gt;where($where)</span><br><span class="line">            -&gt;order($sort, $order)</span><br><span class="line">            -&gt;paginate($limit);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">foreach</span> ($list <span class="keyword">as</span> $row) &#123;</span><br><span class="line">            $row-&gt;visible([<span class="string">'id'</span>, <span class="string">'goods_name'</span>, <span class="string">'goods_title'</span>, <span class="string">'print_time'</span>, <span class="string">'sms_count'</span>]);</span><br><span class="line">            $row-&gt;visible([<span class="string">'goodsextend'</span>]);</span><br><span class="line">            $row-&gt;getRelation(<span class="string">'goodsextend'</span>)-&gt;visible([<span class="string">'query_count'</span>, <span class="string">'delivery_time'</span>, <span class="string">'finish_time'</span>, <span class="string">'status'</span>]);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> json($result);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">$this</span>-&gt;view-&gt;fetch();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
+        <div class="article-info info-on-right">
+          
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">FastAdmin</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">后台</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Sublime Text</a>
         		</li>
       		
 		</ul>
 	</div>
 
-      
+          
 
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
+        </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-  
-<nav id="article-nav">
-  
-    <a href="/2021/10/15/%E4%BD%BF%E7%94%A8PhpSpreadsheet%E6%93%8D%E4%BD%9CExcle/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          使用PhpSpreadsheet操作Excle
-        
-      </div>
-    </a>
   
   
-    <a href="/2020/07/23/ThinkPHP6%E6%8E%A5%E5%85%A5ElasticSearch/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">ThinkPHP6接入ElasticSearch</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-  
-  
+    </div></section>
   
 
-  
-
-  
-
-  
+    
 
 
           </div>
@@ -275,8 +210,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
-		isArchive: false,
+		isPost: false,
+		isArchive: true,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
